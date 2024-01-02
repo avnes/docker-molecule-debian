@@ -1,4 +1,4 @@
-FROM debian:sid
+FROM debian:stable
 
 RUN apt-get update \
   && apt-get install -y ansible python3-apt sudo tar gzip curl \
